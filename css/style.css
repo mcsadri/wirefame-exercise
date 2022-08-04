@@ -1,0 +1,17 @@
+header div {
+    background-color: #444444;
+}
+
+header li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+header li a{
+    text-decoration: none;
+    color: #6A6A6A;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
