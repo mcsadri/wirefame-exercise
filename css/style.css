@@ -1,7 +1,5 @@
-html, body {
-    height: 100%;
-    align: center;
-
+body {
+    font-family: Arial;
 }
 
 header nav {
@@ -9,36 +7,72 @@ header nav {
     flex-direction: row;
     align-items: center;
     background-color: #444444;
-    margin: auto;
-    justify-content: space-evenly;
-    width: 80%;
+    justify-content: space-around;
+    /* width: 80%; */
     height: 100px;
+    margin-bottom: 15px;
 }
 
 header nav a{
     text-decoration: none;
     color: #6A6A6A;
-    font-family: Arial;
     cursor: pointer;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* width: 100%; */
+    border: 1px solid red;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-footer div{
+.row img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 15px;
+    border: 1px solid blue;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border: 1px solid green;
+    width: 450px;
+    height: 400px;
+}
+
+.column h3 {
+    font-weight: bold;
+}
+
+.column p {
+    font-style: italic;
+    line-height: 150%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.column button {
+    width: 150px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.column button:hover {
+    background-color: white;
+    color: black;
+    transition: 350ms;
+    border-radius: 5px;
+}
+
+footer div{
+    margin-top: 15px;
     background-color: #444444;
-    width: 80%;
     height: 100px;
 }
