@@ -1,17 +1,44 @@
-header div {
+html, body {
+    height: 100%;
+    align: center;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #444444;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100px;
 }
 
-header li{
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 20px;
-}
-
-header li a{
+header nav a{
     text-decoration: none;
     color: #6A6A6A;
-    font-weight: 600;
-    font-size: 20px;
+    font-family: Arial;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #444444;
+    width: 80%;
+    height: 100px;
 }
